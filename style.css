@@ -1,0 +1,150 @@
+@font-face{
+  font-family: 'Involve-Regular';
+  src:
+  url('../fonts/Involve-Regular.ttf'),
+  url('../fonts/Involve-Medium.ttf'),
+  url('../fonts/Involve-Regular.ttf'),
+  url('../fonts/Involve-SemiBold.ttf');
+  }
+
+  @font-face{
+    font-family: 'Involve-Bold';
+    src: 
+    url('../fonts/Involve-Bold.ttf');
+    font-weight: normal;
+    font-style: italic;
+    }
+    
+body {
+  margin: auto;
+  background-color: #A8F2FF;
+  width: 1440px;
+  min-height: 1024px;
+
+  /*background-image: url('../public/Main.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;*/
+}
+/*.content {
+	width: 1120px;
+  height: 860px;
+	margin: 32px auto 32px auto;
+	backdrop-filter: blur(10px); 
+  border-radius: 8px;
+}*/
+header {
+	display: flex;
+  height: 120px;
+  font-family: 'Involve-Regular';
+  font-size: 20px;
+  color: #090909CC;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 32px 56px 32px;
+  background-image: url('../images/head.png')
+}
+.logo {
+  display: flex;
+  font-size: 40px;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  
+}
+.logo img {
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+nav  {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  padding-right: 80px;
+}
+a {
+  color: #090909CC;
+  text-decoration: none;
+  }
+
+.contact {
+display: flex;
+width: 180px;
+justify-content: space-between;
+ } 
+/*.name {
+  font-weight: 800;
+}
+.search-city {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 506px;
+  border-radius: 8px;
+  height: 48px;
+  background: #F5F4F466;
+}
+.input-search {
+  font-size: 20px;
+  width: 434px;
+	border: none;
+	background: none;
+}
+.btn-search {
+  display: flex;
+  justify-content: center;
+  width: 24px; 
+  height: 24px;
+}
+main {
+	display: flex;
+  padding: 32px;
+}
+.city {
+  display: flex;
+  width: 534px;
+  height: 408px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(245, 244, 244, 1)
+}
+.name-city {
+  font-size: 24px;
+  font-weight: 700;
+}
+.temperature {
+  font-size: 112px;
+  font-weight: 700;
+  padding: 50px 0 50px 0;
+}
+.meteo {
+  display: flex;
+}
+.next-day {
+  width: 534px;
+  height: 408px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-left: 14px;
+}
+.itemm {
+  background-color: #F5F4F466;
+  width: 158px;
+  height: 196px;
+  border-radius: 8px;
+}
+footer {
+  width: 1120px;
+  height: 192px;
+  gap: 32px;
+  opacity: 0px;
+}
